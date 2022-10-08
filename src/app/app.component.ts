@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'rxjsdemo';
+  title = 'RxJS Demo';
+  isChild2Visible = false; 
+  isChild3Visible = false; 
+  showChild2():void{
+    this.isChild2Visible = true; 
+  }
+  showChild3():void{
+   this.isChild3Visible = true 
+  }
 }
